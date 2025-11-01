@@ -35,7 +35,6 @@ export const App = () => {
                 <link rel="canonical" href="https://yourdomain.com/" />
             </Helmet>
 
-            {/* 🔹 Page Structure */}
             <Header />
             <main className="w-full h-full">
                 <ImageSlider />
