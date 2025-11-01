@@ -1,0 +1,64 @@
+/* ====== Header Component Styling ====== */
+
+/* Smooth sticky header shadow */
+.header {
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Hover underline for nav links */
+.header nav a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.header nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #facc15; /* Tailwind yellow-400 */
+  transition: width 0.3s ease;
+}
+
+.header nav a:hover::after {
+  width: 100%;
+}
+
+/* Top bar contact info */
+.top-bar a {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+/* Address & email layout fix */
+.top-bar .flex.text-right span,
+.top-bar .flex.text-right a {
+  line-height: 1.4;
+}
+
+/* Bottom mega menu hover effect */
+.bottom-nav a {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.bottom-nav a:hover {
+  transform: translateY(-1px);
+  color: #facc15;
+}
+
+/* Mobile menu button */
+button[aria-label="Open mobile menu"]:hover {
+  color: #facc15;
+}
+
+/* Optional: Add subtle background fade on scroll */
+.header.sticky {
+  background-color: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(6px);
+}
