@@ -29,10 +29,12 @@ export const App = () => {
                     property="og:description"
                     content="Explore Mount Abu – top attractions, tourist spots, and travel routes. Perfect guide for your next Rajasthan trip!"
                 />
+                <meta name="keywords"
+                    content="Mount Abu travel, Mount Abu tourism, Mount Abu trip planner, Mount Abu to Ambaji temple route, Mount Abu cab booking, Nakki Lake Mount Abu, Guru Shikhar, Dilwara temple, best places to visit in Mount Abu, Mount Abu hotels , jatin travels" />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://yourdomain.com/" />
+                <meta property="og:url" content="https://mountabutraveller.netlify.app/" />
                 <meta property="og:image" content="/images/mount-abu-banner.webp" />
-                <link rel="canonical" href="https://yourdomain.com/" />
+                <link rel="canonical" href="https://mountabutraveller.netlify.app/" />
             </Helmet>
 
             <Header />

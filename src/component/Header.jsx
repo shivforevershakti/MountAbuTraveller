@@ -7,7 +7,7 @@ export default function Header() {
           {/* Left */}
           <div className="flex items-center space-x-3">
             <a
-              href="tel:9026814199"
+              href="tel:8005603496"
               className="flex items-center hover:underline transition-all duration-200"
             >
               <img
@@ -15,7 +15,7 @@ export default function Header() {
                 alt="phone-icon"
                 className="w-4 h-4 mr-2"
               />
-              9026814199
+              8005603496
             </a>
           </div>
 
@@ -28,7 +28,7 @@ export default function Header() {
                 className="w-4 h-4 mr-2"
               />
               <span className="leading-tight">
-                Laxmi Market, near Sector A, Gomti Nagar, Lucknow, Uttar Pradesh 226010
+                 Shiv Shakti RTO office , Siyawa bus stand , near checkpost , aburoad , Sirohi , 307026
               </span>
             </div>
             <div className="flex items-center">
@@ -38,10 +38,10 @@ export default function Header() {
                 className="w-4 h-4 mr-2"
               />
               <a
-                href="mailto:info@besttaxiwala.com"
+                href="mailto:jatinmishra777@gmail.com"
                 className="hover:underline transition-all duration-200"
               >
-                info@besttaxiwala.com
+               jatinmishra777@gmail.com
               </a>
             </div>
           </div>
@@ -52,10 +52,10 @@ export default function Header() {
       <div className="main-header bg-white py-3 border-b border-gray-200 transition-all duration-300">
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Logo */}
-          <a href="https://besttaxiwala.com/" className="flex-shrink-0">
+          <a href="https://mountabutraveller.netlify.app/" className="flex-shrink-0">
             <img
               src="/logo.jpg"
-              alt="BestTaxiwala Logo"
+              alt="Mountabu Traveller Logo"
               className="h-12 w-auto hover:scale-105 transition-transform duration-300"
             />
           </a>

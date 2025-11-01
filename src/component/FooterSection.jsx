@@ -1,24 +1,21 @@
-import React from "react";
 import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
     return (
         <>
-            {/* ====== Main Footer ====== */}
             <footer className="bg-gray-900 text-white relative" id="footer">
-                {/* Main Footer Content */}
                 <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-                    {/* Column 1 - About */}
                     <div>
                         <a href="#" className="inline-block mb-4">
                             <img
-                                src="https://besttaxiwala.com/wp-content/uploads/2023/08/logo-white.png"
-                                alt="Besttaxiwala Logo"
+                                src="/logo.jpg"
+                                alt="Mount Abu Traveller Logo"
                                 width="238"
                                 height="70"
-                                className="w-48"
+                                className="w-32 sm:w-40 md:w-48 lg:w-56 h-auto"
                                 loading="lazy"
                             />
+
                         </a>
                         <h3 className="text-xl font-semibold mb-2">About Us</h3>
                         <p className="text-gray-300 text-sm leading-relaxed">
@@ -60,15 +57,7 @@ const Footer = () => {
                                     Contact Us
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    href="https://besttaxiwala.com/privacy-policy/"
-                                    className="hover:text-red-500 transition-colors"
-                                    rel="noopener noreferrer"
-                                >
-                                    Privacy Policy
-                                </a>
-                            </li>
+
                         </ul>
                     </div>
 
@@ -78,37 +67,37 @@ const Footer = () => {
                         <p className="text-gray-300 text-sm">
                             Call Us:{" "}
                             <a
-                                href="tel:08922858321"
+                                href="tel:8005603496"
                                 className="text-red-500 hover:underline font-medium"
                             >
-                                9026814199
+                                8005603496
                             </a>
                         </p>
                         <p className="text-gray-300 text-sm">
                             Mail Us:{" "}
                             <a
-                                href="mailto:info@besttaxiwala.com"
+                                href="mailto:jatinmishra7777@gmail.com"
                                 className="text-red-500 hover:underline font-medium"
                             >
-                                contactshivshaktisingh@gmail.com
+                                jatinmishra7777@gmail.com
                             </a>
                         </p>
                         <p className="text-gray-300 text-sm mt-2 leading-relaxed">
-                            Address: 
+                            Address: Shiv Shakti RTO office , Siyawa bus stand , near checkpost , aburoad , Sirohi , 307026
                         </p>
                     </div>
                 </div>
 
                 {/* Copyright */}
                 <div className="bg-gray-800 py-4 text-center text-sm text-gray-400">
-                    © 2023 Besttaxiwala.com — All Rights Reserved.
+                    © 2025 mountabutraveller.com — All Rights Reserved.
                 </div>
             </footer>
 
             {/* ====== Floating Buttons ====== */}
             {/* WhatsApp (Right) */}
             <a
-                href="https://wa.me/918922858321"
+                href="https://wa.me/8005603496"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
@@ -118,7 +107,7 @@ const Footer = () => {
 
             {/* Call (Left) */}
             <a
-                href="tel:08922858321"
+                href="tel:8005603496"
                 className="fixed bottom-5 left-5 bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition-all duration-300 z-50"
             >
                 <FaPhoneAlt size={22} />
