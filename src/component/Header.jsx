@@ -7,7 +7,7 @@ export default function Header() {
           {/* Left */}
           <div className="flex items-center space-x-3">
             <a
-              href="tel:8005603496"
+              href="tel:+918005603496"
               className="flex items-center hover:underline transition-all duration-200"
             >
               <img

@@ -67,7 +67,7 @@ const Footer = () => {
                         <p className="text-gray-300 text-sm">
                             Call Us:{" "}
                             <a
-                                href="tel:8005603496"
+                                href="tel:+918005603496"
                                 className="text-red-500 hover:underline font-medium"
                             >
                                 8005603496
@@ -97,7 +97,7 @@ const Footer = () => {
             {/* ====== Floating Buttons ====== */}
             {/* WhatsApp (Right) */}
             <a
-                href="https://wa.me/8005603496"
+                href="https://wa.me/+918005603496"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="fixed bottom-5 right-5 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-all duration-300 z-50"
@@ -107,7 +107,7 @@ const Footer = () => {
 
             {/* Call (Left) */}
             <a
-                href="tel:8005603496"
+                href="tel:+918005603496"
                 className="fixed bottom-5 left-5 bg-blue-500 text-white p-4 rounded-full shadow-lg hover:bg-blue-600 transition-all duration-300 z-50"
             >
                 <FaPhoneAlt size={22} />
